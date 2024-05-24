@@ -25,7 +25,7 @@ if [ -z "${PROJECT_NAME}" ]; then
   exit 1
 fi
 
-git clone https://github.com/raghudevopsb79/${PROJECT_NAME}-${COMPONENT}
+git clone https://github.com/raghudevopsb78/${PROJECT_NAME}-${COMPONENT}
 cd ${PROJECT_NAME}-$COMPONENT
 
 mysql -h${DB_HOST} -u${DB_USER} -p${DB_PASS} <schema/${COMPONENT}.sql
